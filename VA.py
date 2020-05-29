@@ -17,13 +17,13 @@ def speak(audio):
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak("Good morning Smartboy")
+        speak("Good morning Sir")
     elif hour>=12 and hour<4:
-        speak("Good afternoon Smartboy")
+        speak("Good afternoon Sir")
     else:
-        speak("Good Evening Smartboy")
+        speak("Good Evening Sir")
 
-    speak("I am your Assistant Emma")
+    speak("I am your Assistant Jarvic")
     
 def takeCommand():
     # takes my command from microphone and gives text
